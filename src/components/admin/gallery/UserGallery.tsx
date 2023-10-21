@@ -32,7 +32,7 @@ function userGallery(props: Props) {
   
     useEffect(() => {
       const getGallery =  async () => {
-          await axios.get(`https://rms-mu.vercel.app/gallery?${Date.now()}`)
+          await axios.get(`https://result-gen.vercel.app/gallery?${Date.now()}`)
               .then(res => {
                 setResultData(res.data)
                   // // console.log(data);
