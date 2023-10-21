@@ -61,7 +61,7 @@ const CreateCandidate = (props: Props) => {
 
         // upload image to server using axios
         const res = await fetch(
-          `https://rms-mu.vercel.app/candidates/upload`,
+          `https://result-gen.vercel.app/candidates/upload`,
           {
             method: "POST",
             body: formData,
